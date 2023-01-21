@@ -1,9 +1,13 @@
 import logo from "./logo.svg";
 import "./style.js";
 import React, { useEffect } from "react";
-import Wave from "./Wave";
+import WaveSvg from "./WaveSvg";
 const App = () => {
-  return <Wave black />;
+  return (
+    <div className="waves">
+      <WaveSvg black />
+    </div>
+  );
 };
 
 export default App;

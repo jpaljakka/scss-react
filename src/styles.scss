@@ -1,8 +1,15 @@
 
-  svg.wave path.black {
+  svg.vector path.black {
     fill: black;
   }
-  svg.wave path.white  {
+  svg.vector path.white  {
     fill: white;
   }
+  .waves {
+    position: relative;
+    max-height: 80px;
+    background-color: transparent;
+    color: inherit;
   
+    z-index: 40;
+  }
